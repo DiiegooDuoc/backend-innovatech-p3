@@ -6,7 +6,7 @@ const app = express();
 const PORT = process.env.PORT || 3001;
 
 const {
-  DB_HOST = "10.0.136.231", // acá colocar la IP Privada de la base de datos en AWS RDS
+  DB_HOST = "10.0.143.183", // acá colocar la IP Privada de la base de datos en AWS RDS
   DB_USER = "root",
   DB_PASSWORD = "admin123",
   DB_NAME = "tienda_perritos",
